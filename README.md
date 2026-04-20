@@ -14,7 +14,7 @@ para esto vas a necesitar tener la ejecución de Scripts habilitado en la máqui
 ```Powershell
 Set-ExecutionPolicy -ExecutionPolicy unrestricted
 ```
-Luego no olvides volver a habilitar la seguridad de ejecución 
+Al terminar no olvides volver a habilitar la seguridad de ejecucon de scripts  
 
 ```Powershell
 Set-ExecutionPolicy -ExecutionPolicy Restricted
