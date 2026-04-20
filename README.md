@@ -3,6 +3,19 @@ Herramienta para facilitar los trabajos de soporte técnico y agilizar la respue
 
 Solo ejecuta el comando 
 
-# iwr https://raw.githubusercontent.com/Manuelr2000/Soporte_auto/main/Soptec/IWR.ps1 -useb | iex
+```Powershell
+iwr https://raw.githubusercontent.com/Manuelr2000/Soporte_auto/main/Soptec/IWR.ps1 -useb | iex
+```
 
-Y luego tentras una caje de herramientas de para la solucion de probleas de primer nievel 
+Y luego tendrás una caja de herramientas de para la solución de problemas de primer nivel 
+
+para esto vas a necesitar tener la ejecución de Scripts habilitado en la máquina del usuario.
+
+```Powershell
+Set-ExecutionPolicy -ExecutionPolicy unrestricted
+```
+Luego no olvides volver a habilitar la seguridad de ejecución 
+
+```Powershell
+Set-ExecutionPolicy -ExecutionPolicy Restricted
+```
