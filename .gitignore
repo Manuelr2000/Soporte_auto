@@ -1,0 +1,11 @@
+# Archivos temporales de Windows
+*.tmp
+*.log
+Thumbs.db
+
+# Directorio de instaladores descargados por IWR
+*.exe
+
+# Carpeta de salida si se empaqueta
+dist/
+build/
