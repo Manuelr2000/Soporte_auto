@@ -1,6 +1,6 @@
 # Soptec_auto
 
-*Producto en beta*
+**Producto en beta** 
 
 Herramienta para facilitar los trabajos de soporte técnico y agilizar la respuesta a incidentes. 
 
