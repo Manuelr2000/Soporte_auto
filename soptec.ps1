@@ -62,7 +62,7 @@ function Show-Banner {
     Write-Host ""
 
     # Barra de subtitulo con fondo cyan
-    $titulo = "  SOPTEC TECNICO PRO  -  By Manuel Rodriguez  "
+    $titulo = "  SOPTEC TECNICO  -  Manuel Rodriguez  "
     Write-Host $titulo.PadRight(60) -ForegroundColor Black -BackgroundColor Cyan
     Write-Host ""
 
