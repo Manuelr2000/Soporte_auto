@@ -1,3 +1,4 @@
+$ProgressPreference = 'SilentlyContinue'
 $baseUrl = "https://raw.githubusercontent.com/Manuelr2000/Soporte_auto/main/Soptec"
 $installPath = "$env:LOCALAPPDATA\SoptecAuto"
 
