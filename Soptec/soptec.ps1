@@ -247,6 +247,10 @@ do {
             Write-Host "  Saliendo de SOPTEC..." -ForegroundColor DarkGray
             Write-Host ""
             Start-Sleep -Seconds 1
+            $installPath = "$env:LOCALAPPDATA\SoptecAuto"
+            if (Test-Path $installPath) {
+                Remove-Item -Path $installPath -Recurse -Force -ErrorAction SilentlyContinue
+            }
         }
         default {
             Write-Host ""
